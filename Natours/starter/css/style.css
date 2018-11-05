@@ -508,9 +508,10 @@ body {
   background-color: #333;
   padding: 10rem 0;
   font-size: 1.4rem;
-  color: #f7f7f7 .footer __logo-box;
-    color-text-align: center;
-    color-margin-bottom: 8rem; }
+  color: #f7f7f7; }
+  .footer__logo-box {
+    text-align: center;
+    margin-bottom: 8rem; }
   .footer__logo {
     width: 15rem;
     height: auto; }
