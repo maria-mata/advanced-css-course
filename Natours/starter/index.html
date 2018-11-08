@@ -4,18 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-
   <link rel="stylesheet" href="css/icon-font.css">
   <link rel="stylesheet" href="css/icon-font.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-
   <title>Natours | Exciting tours for adventurous people</title>
 </head>
 
 <body>
+  <!-- Navigation -->
   <div class="navigation">
     <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
     <label for="navi-toggle" class="navigation__button">
@@ -33,7 +31,7 @@
       </ul>
     </nav>
   </div>
-
+  <!-- Header Section -->
   <header class="header">
     <div class="header__logo-box">
       <img class="header__logo" src="img/logo-white.png" alt="Logo">
@@ -51,6 +49,7 @@
   </header>
 
   <main>
+    <!-- About section -->
     <section class="section-about">
       <div class="u-center-text u-margin-bottom-big">
         <h2 class="heading-secondary">
@@ -77,8 +76,9 @@
         </div>
       </div>
     </section>
-    <section class="section-features">
 
+    <!-- Features section -->
+    <section class="section-features">
       <div class="row">
         <div class="col-1-of-4">
           <div class="feature-box">
@@ -118,6 +118,8 @@
         </div>
       </div>
     </section>
+
+    <!-- Tours section -->
     <section class="section-tours">
       <div class="u-center-text u-margin-bottom-big">
         <h2 class="heading-secondary">
@@ -152,7 +154,7 @@
                   <p class="card__price-only">Only</p>
                   <p class="card__price-value">$297</p>
                 </div>
-                <a href="#" class="btn btn--white">Book now</a>
+                <a href="#popup" class="btn btn--white">Book now</a>
               </div>
             </div>
           </div>
@@ -184,7 +186,7 @@
                   <p class="card__price-only">Only</p>
                   <p class="card__price-value">$297</p>
                 </div>
-                <a href="#" class="btn btn--white">Book now</a>
+                <a href="#popup" class="btn btn--white">Book now</a>
               </div>
             </div>
           </div>
@@ -216,7 +218,7 @@
                   <p class="card__price-only">Only</p>
                   <p class="card__price-value">$297</p>
                 </div>
-                <a href="#" class="btn btn--white">Book now</a>
+                <a href="#popup" class="btn btn--white">Book now</a>
               </div>
             </div>
           </div>
@@ -228,6 +230,7 @@
       </div>
     </section>
 
+    <!-- Stories section -->
     <section class="section-stories">
       <div class="bg-video">
         <video class="bg-video__content" autoplay muted loop>
@@ -285,6 +288,7 @@
       </div>
     </section>
 
+    <!-- Book section -->
     <section class="section-book">
       <div class="row">
         <div class="book">
@@ -328,6 +332,8 @@
       </div>
     </section>
   </main>
+
+  <!-- Footer  -->
   <footer class="footer">
     <div class="footer__logo-box">
       <img src="img/logo-green-2x.png" alt="Full logo-green-small-1x" class="footer__logo">
@@ -352,6 +358,24 @@
     </div>
   </footer>
 
+  <!-- Popup -->
+  <div class="popup" id="popup">
+    <div class="popup__content">
+      <div class="popup__left">
+        <img src="img/nat-8.jpg" alt="tour" class="popup__img">
+        <img src="img/nat-9.jpg" alt="tour" class="popup__img">
+      </div>
+      <div class="popup__right">
+        <a href="#section-tours" class="popup__close">&times;</a>
+        <h2 class="heading-secondary u-margin-bottom-small ">Start booking now</h2>
+        <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these termes before booking</h3>
+        <p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus hic tempora
+          distinctio, porro ab aspernatur nobis, corporis voluptatem eius expedita earum cumque non excepturi
+          perspiciatis nihil possimus soluta aut voluptatibus!</p>
+        <a href="#" class="btn btn--green">Book now</a>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
